@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react"
 
 export default function Stopwatch(){
-    const[sec,setSec]=useState(65);
+    const[sec,setSec]=useState(0);
 
     const Id=useRef(null);
 
